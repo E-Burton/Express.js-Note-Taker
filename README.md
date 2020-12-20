@@ -6,13 +6,13 @@ Modify back end code using Express.js to create a Note Taker application that ca
 
 ## Table of Contents
 
-[Objective](#objective)
-[User Story and Criteria](#user-story-and-criteria)
-[Mock-Up](#mock-up)
-[Tools Implemented](#tools-implemented)
-[Installation](#installation)
-[Challenges](#challenges)
-[Additional Resources](#additional-resources)
+* [Objective](#objective)
+* [User Story and Criteria](#user-story-and-criteria)
+* [Mock-Up](#mock-up)
+* [Tools Implemented](#tools-implemented)
+* [Installation](#installation)
+* [Challenges](#challenges)
+* [Additional Resources](#additional-resources)
 
 ## User Story and Criteria
 
