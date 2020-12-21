@@ -20,9 +20,7 @@ Modify back end code using Express.js to create a Note Taker application that ca
 AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
 
-```
 GIVEN a note-taking application
 WHEN I open the Note Taker
 THEN I am presented with a landing page with a link to a notes page
@@ -43,11 +41,13 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## Tools Implemented
 
 * Express.js
+* Generate Unique ID npm
 * Heroku
 
 ## Installation
 
-`npm install express`
+* `npm install express`
+* `npm install generate-unique-id --save`
 
 ## Challenges
 
