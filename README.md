@@ -51,7 +51,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Challenges
 
+* Preventing GET /api/notes response from returning HTML vs. JSON file. <br>
+    **Solution:** Removed API and HTML routes from server.js file and created routes directory with apiRoutes.js file and htmlRoutes.js file.
+
 ## Additional Resources
 
 * [How to Make GET request with Express.js to Local File](https://stackoverflow.com/questions/47236927/how-to-make-get-request-with-express-js-to-a-local-json-file/47237111)
-* 
+* [HTTPErrorResponse SyntaxError: Unexpected token < in JSON at position 0](https://www.xspdf.com/resolution/51583757.html)
