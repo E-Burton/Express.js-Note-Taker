@@ -53,3 +53,5 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Additional Resources
 
+* [How to Make GET request with Express.js to Local File](https://stackoverflow.com/questions/47236927/how-to-make-get-request-with-express-js-to-a-local-json-file/47237111)
+* 

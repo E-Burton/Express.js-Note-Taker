@@ -31,7 +31,7 @@ const getNotes = () =>
     headers: {
       'Content-Type': 'application/json',
     },
-  });
+  }); 
 
 const saveNote = (note) =>
   fetch('/api/notes', {
@@ -61,6 +61,8 @@ const renderActiveNote = () => {
   } else {
     noteTitle.value = '';
     noteText.value = '';
+    noteTitle.removeAttribute('readonly'); // Added to allow for new note title to be created
+    noteText.removeAttribute('readonly'); // Added to allow for new note text to be created
   }
 };
 
@@ -155,11 +157,13 @@ const renderNoteList = async (notes) => {
     noteListItems.push(createLi('No saved Notes', false));
   }
 
+  console.log(jsonNotes);
+
   jsonNotes.forEach((note) => {
     const li = createLi(note.title);
     li.dataset.note = JSON.stringify(note);
 
-    noteListItems.push(li);
+    noteListItems.push(li); 
   });
 
   if (window.location.pathname === '/notes') {
