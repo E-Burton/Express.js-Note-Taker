@@ -18,4 +18,18 @@ module.exports = (app) => {
         noteDatabase.push(newNote);
         res.end();
     });
+
+    app.delete("/api/notes/:id", (req, res) => {
+        const noteID = req.params.id;
+        console.log(noteID);
+        const removeNoteIndex = noteDatabase.findIndex( (obj) => {
+            return obj.id === noteID;
+        });
+
+        if (removeNoteIndex !== -1) {
+            noteDatabase.splice(removeNoteIndex, 1);
+        };
+        // console.log(noteDatabase);
+        res.end();
+    });
 };
