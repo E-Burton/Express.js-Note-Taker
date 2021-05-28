@@ -1,4 +1,4 @@
-# Express.js Note Taker
+# ExpressJS Note Taker
 
 ## Objective
 
